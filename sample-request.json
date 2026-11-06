@@ -1,0 +1,15 @@
+{
+  "content_type": "application/json",
+  "body": {
+    "text": "The card statement shows the subscription fee two times this month. Please fix this duplicate today, it is really frustrating."
+  },
+  "expect_substrings": ["billing", "high", "negative", "en"],
+  "batch_lines": [
+    {
+      "text": "The card statement shows the subscription fee two times this month. Please fix this duplicate today, it is really frustrating."
+    },
+    {
+      "text": "El paquete debía llegar ayer y el repartidor no pasó. Lo necesitamos urgente."
+    }
+  ]
+}

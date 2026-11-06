@@ -1,0 +1,170 @@
+{
+  "model_revision": "8d85b0e97f32ea16379e5ffdae7c20f7d652a5031a974000cfb1139ba1ea3530",
+  "source": "Original synthetic release-v2 regression; first example for each language and gold intent, without filtering for correctness",
+  "response_source": "Actual network-isolated SageMaker qualification, 6 November 2026",
+  "response_report_sha256": "29ba916c868567d671161a0ac3e8f4f792dff3b765a93953b9e883591f30a36a",
+  "selected": [
+    {
+      "source_id": "release-v2-en-00",
+      "language": "en",
+      "gold_intent": "billing",
+      "predicted_intent": "billing"
+    },
+    {
+      "source_id": "release-v2-en-03",
+      "language": "en",
+      "gold_intent": "technical_issue",
+      "predicted_intent": "technical_issue"
+    },
+    {
+      "source_id": "release-v2-en-06",
+      "language": "en",
+      "gold_intent": "account_access",
+      "predicted_intent": "account_access"
+    },
+    {
+      "source_id": "release-v2-en-09",
+      "language": "en",
+      "gold_intent": "cancellation",
+      "predicted_intent": "cancellation"
+    },
+    {
+      "source_id": "release-v2-en-12",
+      "language": "en",
+      "gold_intent": "shipping_delivery",
+      "predicted_intent": "shipping_delivery"
+    },
+    {
+      "source_id": "release-v2-en-15",
+      "language": "en",
+      "gold_intent": "refund",
+      "predicted_intent": "refund"
+    },
+    {
+      "source_id": "release-v2-en-18",
+      "language": "en",
+      "gold_intent": "complaint",
+      "predicted_intent": "complaint"
+    },
+    {
+      "source_id": "release-v2-en-21",
+      "language": "en",
+      "gold_intent": "sales_inquiry",
+      "predicted_intent": "sales_inquiry"
+    },
+    {
+      "source_id": "release-v2-en-24",
+      "language": "en",
+      "gold_intent": "other",
+      "predicted_intent": "other"
+    },
+    {
+      "source_id": "release-v2-es-00",
+      "language": "es",
+      "gold_intent": "billing",
+      "predicted_intent": "billing"
+    },
+    {
+      "source_id": "release-v2-es-03",
+      "language": "es",
+      "gold_intent": "technical_issue",
+      "predicted_intent": "shipping_delivery"
+    },
+    {
+      "source_id": "release-v2-es-06",
+      "language": "es",
+      "gold_intent": "account_access",
+      "predicted_intent": "account_access"
+    },
+    {
+      "source_id": "release-v2-es-09",
+      "language": "es",
+      "gold_intent": "cancellation",
+      "predicted_intent": "cancellation"
+    },
+    {
+      "source_id": "release-v2-es-12",
+      "language": "es",
+      "gold_intent": "shipping_delivery",
+      "predicted_intent": "shipping_delivery"
+    },
+    {
+      "source_id": "release-v2-es-15",
+      "language": "es",
+      "gold_intent": "refund",
+      "predicted_intent": "refund"
+    },
+    {
+      "source_id": "release-v2-es-18",
+      "language": "es",
+      "gold_intent": "complaint",
+      "predicted_intent": "complaint"
+    },
+    {
+      "source_id": "release-v2-es-21",
+      "language": "es",
+      "gold_intent": "sales_inquiry",
+      "predicted_intent": "sales_inquiry"
+    },
+    {
+      "source_id": "release-v2-es-24",
+      "language": "es",
+      "gold_intent": "other",
+      "predicted_intent": "other"
+    },
+    {
+      "source_id": "release-v2-pt-00",
+      "language": "pt",
+      "gold_intent": "billing",
+      "predicted_intent": "billing"
+    },
+    {
+      "source_id": "release-v2-pt-03",
+      "language": "pt",
+      "gold_intent": "technical_issue",
+      "predicted_intent": "technical_issue"
+    },
+    {
+      "source_id": "release-v2-pt-06",
+      "language": "pt",
+      "gold_intent": "account_access",
+      "predicted_intent": "account_access"
+    },
+    {
+      "source_id": "release-v2-pt-09",
+      "language": "pt",
+      "gold_intent": "cancellation",
+      "predicted_intent": "cancellation"
+    },
+    {
+      "source_id": "release-v2-pt-12",
+      "language": "pt",
+      "gold_intent": "shipping_delivery",
+      "predicted_intent": "shipping_delivery"
+    },
+    {
+      "source_id": "release-v2-pt-15",
+      "language": "pt",
+      "gold_intent": "refund",
+      "predicted_intent": "refund"
+    },
+    {
+      "source_id": "release-v2-pt-18",
+      "language": "pt",
+      "gold_intent": "complaint",
+      "predicted_intent": "complaint"
+    },
+    {
+      "source_id": "release-v2-pt-21",
+      "language": "pt",
+      "gold_intent": "sales_inquiry",
+      "predicted_intent": "sales_inquiry"
+    },
+    {
+      "source_id": "release-v2-pt-24",
+      "language": "pt",
+      "gold_intent": "other",
+      "predicted_intent": "other"
+    }
+  ]
+}
