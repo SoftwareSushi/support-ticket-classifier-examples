@@ -1,0 +1,874 @@
+{
+  "apk_packages": {
+    "abseil-cpp-base": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q1ZD4AxwI9Z4qZFbg1ZAxKXPmGNiI=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-city": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q1VCqzAybUtDhCSOYgc50bP6s4YWI=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-cord": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q1hv4RTCXQUGQC63lfhWABbQIcN2g=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-cord-internal": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q1RiMlkULWulK3BwwWkMK1b1EJJC4=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-cordz-functions": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q1v3Egek0Oo86NxNVB5EJ+xwAcO2I=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-cordz-handle": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q1xregj0xjXniKRPVOkMNEJ668eHI=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-cordz-info": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q19inSDYH6NxH649nhPSfhCYnKGTc=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-crc-cord-state": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q1yqrRHYKc8gcvKjGje27wY93dyDg=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-crc-internal": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q1SAIS678oTdRFI6wNkQS3p5iVD7A=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-crc32c": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q1ZS/IKkmUPCVf8RQpsch1F+MqG4Q=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-debugging-internal": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q10d8The5GsSUnCCgB6lh0Sj5ugxU=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-die-if-null": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q1XT+L17uLBsv9HKv1kOZ6IOqP6uE=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-examine-stack": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q1YI54tCxFP8TnSpTM2T5ihDGtrOg=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-exponential-biased": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q1aRsU35DvLeAKx/5eXw0eXtaxEas=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-hash": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q16bziYDG/oFgARNRSEVjeBOssYnU=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-hashtablez-sampler": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q1lBSXU0ZorTjOinN0TsB5wp13vtI=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-int128": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q19p7xMwnWsEjjP+07QpDPx0pa6xQ=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-kernel-timeout-internal": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q1O67/r4ooxZff78IjCbzJipjwrxI=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-leak-check": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q1TTD7U18KcVG9oDqQk1VQWIJ2ngU=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-log-globals": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q13uFGLLgQX9lP7LxZZ0IfSnKYiGY=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-log-initialize": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q1vC5pqT7nV+AoPfN5lku4uhHB8Uc=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-log-internal-check-op": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q1JzBtU1+QSPpCpG97v0HDSs84tF0=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-log-internal-conditions": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q1rBs+9xGkf0TMfQEtjg27Rte7BwY=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-log-internal-format": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q1+RQ3D3hve0BHtmJPd1PzCLwEdas=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-log-internal-globals": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q110dHwJsxArMVZT59cOf6my6XaRY=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-log-internal-log-sink-set": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q1VhF+pfYsQaxsaGBJ1PGnbiuDh/0=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-log-internal-message": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q1oicHefDwW0F+jDK9TTPXU4dpf04=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-log-internal-nullguard": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q1r67ROUZ2Iog0yiUQz+HReOJINKY=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-log-internal-proto": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q1zgmb5zqwiaITN0g0lrOFVyrJlZE=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-log-internal-structured-proto": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q1pCQT6IfK8FU65JlEokKWmq11bRU=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-log-sink": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q1XS13q0uLMEGFAZ9K3l962Gz055I=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-malloc-internal": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q1gPBi8ar6Egvv9lGB2D24Elcyd2I=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-raw-hash-set": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q1ZqFevTe4O+WnNly6fpyPRXSW250=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-raw-logging-internal": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q1dhbRgFQYK3LO50WtlPivZVhZ/lE=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-spinlock-wait": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q1F4M8GgW5CIyfF/ue1X1ESC6wOGo=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-stacktrace": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q10TuTA6x6bxW2yACtpbVdUVlsVdE=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-status": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q1Ni5hu4DBdFVJCkYYEq9vjQ8xXgY=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-statusor": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q1AtLv58J4RYNRQjXqhp3uxjchWKQ=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-str-format-internal": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q1wtERwVkuzIKlmBuiKp12CvvWkuE=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-strerror": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q1w84L5naybsYu+riR2N7k387IY6Y=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-strings": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q1tllR2u4fT/Asd8/Ruka4ehveEhY=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-strings-internal": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q11iDgk3DedrPXbr7OOUfqpu2APJU=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-symbolize": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q1bDaRpE/j1IVyZ1g/0tACyaZNCzI=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-synchronization": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q1FbpxKkzUXKjxXPN3wv58xoS8Ars=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-throw-delegate": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q1hU9Hasj8qRkEnAvL/IQpsEpQo2E=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-time": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q1C7Ey+q8XHDL3WJbg1E+Mfv/F/cE=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-time-zone": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q10tuFMp0lNHQ0oQ6hrOmkifRIurA=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "abseil-cpp-tracing-internal": {
+      "license": "Apache-2.0",
+      "origin": "abseil-cpp",
+      "package_checksum": "Q10iGoOWfLCGUxiPCHroMyiNpsWnY=",
+      "source_commit": "68b166903c9439e617b4208635153c7a647dc9f0",
+      "version": "20250814.1-r0"
+    },
+    "alpine-baselayout": {
+      "license": "GPL-2.0-only",
+      "origin": "alpine-baselayout",
+      "package_checksum": "Q18Pz9wvTaBYr2RzvEXE6rYpFiJbI=",
+      "source_commit": "60a7585bbab2fa0f762504eb617dbca90216e31f",
+      "version": "3.7.2-r1"
+    },
+    "alpine-baselayout-data": {
+      "license": "GPL-2.0-only",
+      "origin": "alpine-baselayout",
+      "package_checksum": "Q1xvm97RfYRLbxsLtXZtLDXA1chQg=",
+      "source_commit": "60a7585bbab2fa0f762504eb617dbca90216e31f",
+      "version": "3.7.2-r1"
+    },
+    "alpine-keys": {
+      "license": "MIT",
+      "origin": "alpine-keys",
+      "package_checksum": "Q12Na4DlPAWad+SRXaeLqWTz/+okA=",
+      "source_commit": "b9f23becced4d7b3ccc0fa0f28530243ccd314a0",
+      "version": "2.6-r0"
+    },
+    "alpine-release": {
+      "license": "MIT",
+      "origin": "alpine-base",
+      "package_checksum": "Q1h7+HsQcocLeEQ30mu7t6tN+FFZA=",
+      "source_commit": "105b835acd9971b9770fb61f5a1ddcc133c180dc",
+      "version": "3.24.4-r0"
+    },
+    "apk-tools": {
+      "license": "GPL-2.0-only",
+      "origin": "apk-tools",
+      "package_checksum": "Q1J7x4ZnVPz2sesSd0tcjmwIQjkNY=",
+      "source_commit": "13685e8f2cf1c103cbba2fb9efcfcf19f4918df0",
+      "version": "3.0.9-r0"
+    },
+    "busybox": {
+      "license": "GPL-2.0-only",
+      "origin": "busybox",
+      "package_checksum": "Q1tUBevAL33YvpW2JlxUskPVRWq48=",
+      "source_commit": "c3ef5d10e6ef6528852c51f0564963e2f8c1be19",
+      "version": "1.37.0-r31"
+    },
+    "busybox-binsh": {
+      "license": "GPL-2.0-only",
+      "origin": "busybox",
+      "package_checksum": "Q1XL0UrMbxgExbrGx33CxJLwELD8c=",
+      "source_commit": "c3ef5d10e6ef6528852c51f0564963e2f8c1be19",
+      "version": "1.37.0-r31"
+    },
+    "ca-certificates-bundle": {
+      "license": "MPL-2.0 AND MIT",
+      "origin": "ca-certificates",
+      "package_checksum": "Q1fG5jX4aq+0bLOwFdhQWzpfYRVr0=",
+      "source_commit": "e78f5987166c6ffbe23f6472e2e8f040298fe2da",
+      "version": "20261020-r0"
+    },
+    "gdbm": {
+      "license": "GPL-3.0-or-later",
+      "origin": "gdbm",
+      "package_checksum": "Q1YZST2BJP5JqO4dj3oTcs9+OXczc=",
+      "source_commit": "1ea03990396db618edfcc8a9a0bc6b72662bac8f",
+      "version": "1.26-r0"
+    },
+    "icu-data-en": {
+      "license": "ICU",
+      "origin": "icu",
+      "package_checksum": "Q1UKJU3SreKbZBDHrr4zMZcr6yst0=",
+      "source_commit": "6755fdb21483ba250d374c3244f0f48bc63447e2",
+      "version": "78.1-r0"
+    },
+    "icu-libs": {
+      "license": "ICU",
+      "origin": "icu",
+      "package_checksum": "Q1Rr02F/bREvA12AbSTFz46m5Zf1A=",
+      "source_commit": "6755fdb21483ba250d374c3244f0f48bc63447e2",
+      "version": "78.1-r0"
+    },
+    "libapk": {
+      "license": "GPL-2.0-only",
+      "origin": "apk-tools",
+      "package_checksum": "Q1qU9Nf2fuR7pcUYWGSvHUsWETxZg=",
+      "source_commit": "13685e8f2cf1c103cbba2fb9efcfcf19f4918df0",
+      "version": "3.0.9-r0"
+    },
+    "libbz2": {
+      "license": "bzip2-1.0.6",
+      "origin": "bzip2",
+      "package_checksum": "Q1CFZrpcevl8JUdL6LJOi0jwEWtn0=",
+      "source_commit": "33283848034c9885d984c8e8697c645c57324938",
+      "version": "1.0.8-r6"
+    },
+    "libcrypto3": {
+      "license": "Apache-2.0",
+      "origin": "openssl",
+      "package_checksum": "Q1HA3ulzTPIvyXzdGBkTu9cQ5t+wg=",
+      "source_commit": "29b9ec24b1b5b39aeef51fa2a044210e2ec5258e",
+      "version": "3.5.9-r0"
+    },
+    "libexpat": {
+      "license": "MIT",
+      "origin": "expat",
+      "package_checksum": "Q1sJ3mbRK300qoX/3bSQgNsvVLmDY=",
+      "source_commit": "af0fa42036cd6e626768c0d65fddaa1d1b30cf21",
+      "version": "2.10.0-r0"
+    },
+    "libffi": {
+      "license": "MIT",
+      "origin": "libffi",
+      "package_checksum": "Q1L3smH3/OzE7r2LMw5/b7gHE7/jo=",
+      "source_commit": "2c2a7bb4a8b16066834e90402567b2c19403a790",
+      "version": "3.5.2-r1"
+    },
+    "libgcc": {
+      "license": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+      "origin": "gcc",
+      "package_checksum": "Q1N5wVbFPgzBQOh8ecCj3SK27lFVI=",
+      "source_commit": "423a8ad043d07f2c7546c8ec3e2b0384cda360ae",
+      "version": "15.2.0-r5"
+    },
+    "libgfortran": {
+      "license": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+      "origin": "gcc",
+      "package_checksum": "Q1xKyw5Q0oCo3LaOkzM3GjSXR1sCs=",
+      "source_commit": "423a8ad043d07f2c7546c8ec3e2b0384cda360ae",
+      "version": "15.2.0-r5"
+    },
+    "libncursesw": {
+      "license": "X11",
+      "origin": "ncurses",
+      "package_checksum": "Q1nzGObjJNaCcnSCkZTPasavut7RI=",
+      "source_commit": "2cee8a7328d061418336ad327b512d96bcd7bc5e",
+      "version": "6.6_p20260516-r0"
+    },
+    "libpanelw": {
+      "license": "X11",
+      "origin": "ncurses",
+      "package_checksum": "Q1FJvcQ0Iy7RH8W7l1ulGaBxVKb1Y=",
+      "source_commit": "2cee8a7328d061418336ad327b512d96bcd7bc5e",
+      "version": "6.6_p20260516-r0"
+    },
+    "libprotobuf": {
+      "license": "BSD-3-Clause",
+      "origin": "protobuf",
+      "package_checksum": "Q1+QpPVwHSEFYDfzyqufrLdg8V8r4=",
+      "source_commit": "376203ab3c643835e4a1e5e0de31076e8a429b37",
+      "version": "31.1-r1"
+    },
+    "libprotobuf-lite": {
+      "license": "BSD-3-Clause",
+      "origin": "protobuf",
+      "package_checksum": "Q1Pcx/zlsiiJfuqL/7Ih61lPIdYT8=",
+      "source_commit": "376203ab3c643835e4a1e5e0de31076e8a429b37",
+      "version": "31.1-r1"
+    },
+    "libprotoc": {
+      "license": "BSD-3-Clause",
+      "origin": "protobuf",
+      "package_checksum": "Q1wv3OzPQP+BmGr+63bZcpI/81DBI=",
+      "source_commit": "376203ab3c643835e4a1e5e0de31076e8a429b37",
+      "version": "31.1-r1"
+    },
+    "libquadmath": {
+      "license": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+      "origin": "gcc",
+      "package_checksum": "Q1A/+sZ2ou2pHQQAwzNgALp/jGgrg=",
+      "source_commit": "423a8ad043d07f2c7546c8ec3e2b0384cda360ae",
+      "version": "15.2.0-r5"
+    },
+    "libssl3": {
+      "license": "Apache-2.0",
+      "origin": "openssl",
+      "package_checksum": "Q1IMTJDqnSCp3ToE3q3yxsT2QjNkM=",
+      "source_commit": "29b9ec24b1b5b39aeef51fa2a044210e2ec5258e",
+      "version": "3.5.9-r0"
+    },
+    "libstdc++": {
+      "license": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+      "origin": "gcc",
+      "package_checksum": "Q1X3oq12RhKLoCzA1vuUZytoRWSNU=",
+      "source_commit": "423a8ad043d07f2c7546c8ec3e2b0384cda360ae",
+      "version": "15.2.0-r5"
+    },
+    "mpdecimal": {
+      "license": "BSD-2-Clause",
+      "origin": "mpdecimal",
+      "package_checksum": "Q1DIHOsOi1lms8MPVXtY2cb+RvbvY=",
+      "source_commit": "c0519b85456e9b838e3142e1d233aab0b433b476",
+      "version": "4.0.1-r0"
+    },
+    "musl": {
+      "license": "MIT",
+      "origin": "musl",
+      "package_checksum": "Q1dw6DBNlY3O2Y12mX356Podtcoy8=",
+      "source_commit": "8f79d39391b46d6dbf1800fb68b8212a21d5ee2e",
+      "version": "1.2.6-r3"
+    },
+    "musl-utils": {
+      "license": "MIT AND BSD-2-Clause AND GPL-2.0-or-later",
+      "origin": "musl",
+      "package_checksum": "Q1UTctqvsjRkaWDspNehP3BjJPJNY=",
+      "source_commit": "8f79d39391b46d6dbf1800fb68b8212a21d5ee2e",
+      "version": "1.2.6-r3"
+    },
+    "ncurses-terminfo-base": {
+      "license": "X11",
+      "origin": "ncurses",
+      "package_checksum": "Q1nVUdgo6cjuUsWAHB1gRoKOvxV1I=",
+      "source_commit": "2cee8a7328d061418336ad327b512d96bcd7bc5e",
+      "version": "6.6_p20260516-r0"
+    },
+    "onnxruntime": {
+      "license": "MIT",
+      "origin": "onnxruntime",
+      "package_checksum": "Q1PlYszzrlghtoDIOd3T/D2ELlcYI=",
+      "source_commit": "6aba353842d53c653f7e2ac5ee80ea9f54f81a36",
+      "version": "1.24.4-r1"
+    },
+    "openblas": {
+      "license": "BSD-3-Clause",
+      "origin": "openblas",
+      "package_checksum": "Q1y0YKQJgMP+NQPfrrP9iQhQh/fRE=",
+      "source_commit": "2999d76115d643bfc87ed25f3e241b7d7f3f27f1",
+      "version": "0.3.30-r2"
+    },
+    "protobuf": {
+      "license": "BSD-3-Clause",
+      "origin": "protobuf",
+      "package_checksum": "Q1Ycfv2ndgugWAic69vQpuecBzWRM=",
+      "source_commit": "376203ab3c643835e4a1e5e0de31076e8a429b37",
+      "version": "31.1-r1"
+    },
+    "protoc": {
+      "license": "BSD-3-Clause",
+      "origin": "protobuf",
+      "package_checksum": "Q1YRIgXkLzNvB6DqJ3eEEamwxqepQ=",
+      "source_commit": "376203ab3c643835e4a1e5e0de31076e8a429b37",
+      "version": "31.1-r1"
+    },
+    "py3-coloredlogs": {
+      "license": "MIT",
+      "origin": "py3-coloredlogs",
+      "package_checksum": "Q1f8gqViBrWm3KFBVbFYi8trhlgLE=",
+      "source_commit": "73e031c7b89cbc44c7b21f5b0679de728b9e8484",
+      "version": "15.0.1-r5"
+    },
+    "py3-coloredlogs-pyc": {
+      "license": "MIT",
+      "origin": "py3-coloredlogs",
+      "package_checksum": "Q13TulmS6UmKZ9O68OslUNEaajDtk=",
+      "source_commit": "73e031c7b89cbc44c7b21f5b0679de728b9e8484",
+      "version": "15.0.1-r5"
+    },
+    "py3-flatbuffers": {
+      "license": "Apache-2.0",
+      "origin": "flatbuffers",
+      "package_checksum": "Q1vPHFbKNeFCawdDZ0uKm7ll051uA=",
+      "source_commit": "87bd5fc5f161d73f75123ffd87d8ecf78c2c1b00",
+      "version": "25.12.19-r1"
+    },
+    "py3-flatbuffers-pyc": {
+      "license": "Apache-2.0",
+      "origin": "flatbuffers",
+      "package_checksum": "Q1/eDgeQONuNBm89Uj+xLYqw5ITPY=",
+      "source_commit": "87bd5fc5f161d73f75123ffd87d8ecf78c2c1b00",
+      "version": "25.12.19-r1"
+    },
+    "py3-humanfriendly": {
+      "license": "MIT",
+      "origin": "py3-humanfriendly",
+      "package_checksum": "Q1DVM/krY1qFSOyueSHVMyYSF+7E0=",
+      "source_commit": "8f580b81270bb4a991fbc363b93bf8430223ee57",
+      "version": "10.0-r7"
+    },
+    "py3-humanfriendly-pyc": {
+      "license": "MIT",
+      "origin": "py3-humanfriendly",
+      "package_checksum": "Q1Wvp6nIXExKhUEttBZm16sEBxSPE=",
+      "source_commit": "8f580b81270bb4a991fbc363b93bf8430223ee57",
+      "version": "10.0-r7"
+    },
+    "py3-mpmath": {
+      "license": "BSD-3-Clause",
+      "origin": "py3-mpmath",
+      "package_checksum": "Q1R6Mv3f9Mzaf3SNPMs7QPzIi22VI=",
+      "source_commit": "cbcebc7154358b973ca1a9b73b93c806ba744652",
+      "version": "1.4.1-r2"
+    },
+    "py3-mpmath-pyc": {
+      "license": "BSD-3-Clause",
+      "origin": "py3-mpmath",
+      "package_checksum": "Q1oKNWf3sHlZz9ToWAud8SNXeAqoE=",
+      "source_commit": "cbcebc7154358b973ca1a9b73b93c806ba744652",
+      "version": "1.4.1-r2"
+    },
+    "py3-numpy": {
+      "license": "BSD-3-Clause",
+      "origin": "py3-numpy",
+      "package_checksum": "Q1aNgGU56UpliQah5hH6xiomVoEow=",
+      "source_commit": "5c3024984bfd3b115088b1b29cc0690308de9a41",
+      "version": "2.4.6-r0"
+    },
+    "py3-numpy-pyc": {
+      "license": "BSD-3-Clause",
+      "origin": "py3-numpy",
+      "package_checksum": "Q1ze1Ep7XwJO7Y8gJjLUC3DtAc/CU=",
+      "source_commit": "5c3024984bfd3b115088b1b29cc0690308de9a41",
+      "version": "2.4.6-r0"
+    },
+    "py3-numpy-tests": {
+      "license": "BSD-3-Clause",
+      "origin": "py3-numpy",
+      "package_checksum": "Q13m9Rj8Tz47/nDToIL9lDnrocR38=",
+      "source_commit": "5c3024984bfd3b115088b1b29cc0690308de9a41",
+      "version": "2.4.6-r0"
+    },
+    "py3-onnxruntime": {
+      "license": "MIT",
+      "origin": "onnxruntime",
+      "package_checksum": "Q1J8GHmJyZ+EMZX51w/M9FBt54lHk=",
+      "source_commit": "6aba353842d53c653f7e2ac5ee80ea9f54f81a36",
+      "version": "1.24.4-r1"
+    },
+    "py3-onnxruntime-pyc": {
+      "license": "MIT",
+      "origin": "onnxruntime",
+      "package_checksum": "Q1nK6k88VrvtEj5WCdYfgpjor+MwA=",
+      "source_commit": "6aba353842d53c653f7e2ac5ee80ea9f54f81a36",
+      "version": "1.24.4-r1"
+    },
+    "py3-packaging": {
+      "license": "Apache-2.0 AND BSD-2-Clause",
+      "origin": "py3-packaging",
+      "package_checksum": "Q1aZ4wF0jdUnh1faD0o8GeusvAVIA=",
+      "source_commit": "8752a7b58577daa7f37849591e675172eadb4055",
+      "version": "26.2-r0"
+    },
+    "py3-packaging-pyc": {
+      "license": "Apache-2.0 AND BSD-2-Clause",
+      "origin": "py3-packaging",
+      "package_checksum": "Q1XDhgtDbS2Lq5xlA8maFD1xK/WhU=",
+      "source_commit": "8752a7b58577daa7f37849591e675172eadb4055",
+      "version": "26.2-r0"
+    },
+    "py3-parsing": {
+      "license": "MIT",
+      "origin": "py3-parsing",
+      "package_checksum": "Q1OZL9BuSltPZV0TpLpZwTQa4kPUQ=",
+      "source_commit": "91175ae0a18da54ff1f4fbe77636c8d4ca7ec024",
+      "version": "3.3.2-r1"
+    },
+    "py3-parsing-pyc": {
+      "license": "MIT",
+      "origin": "py3-parsing",
+      "package_checksum": "Q1V/Lepn2eCWPtW11VCYmE2N5Pyz0=",
+      "source_commit": "91175ae0a18da54ff1f4fbe77636c8d4ca7ec024",
+      "version": "3.3.2-r1"
+    },
+    "py3-pybind11": {
+      "license": "MPL-2.0",
+      "origin": "py3-pybind11",
+      "package_checksum": "Q1IrAfWp4tfeE3X7oXxZn3sdJQ/Ko=",
+      "source_commit": "f61b919c607579d150b0783d28e96b14746fa62a",
+      "version": "3.0.1-r1"
+    },
+    "py3-pybind11-pyc": {
+      "license": "MPL-2.0",
+      "origin": "py3-pybind11",
+      "package_checksum": "Q1OytHGnCMG52AqmX+ZQMn+7zYqKQ=",
+      "source_commit": "f61b919c607579d150b0783d28e96b14746fa62a",
+      "version": "3.0.1-r1"
+    },
+    "py3-re2": {
+      "license": "BSD-3-Clause",
+      "origin": "re2",
+      "package_checksum": "Q1wATd65nN8BShIwqStkLPDxGCHUE=",
+      "source_commit": "c0a64a6633075ffea8d2fd1240aa6c41734499f7",
+      "version": "2025.11.05-r3"
+    },
+    "py3-re2-pyc": {
+      "license": "BSD-3-Clause",
+      "origin": "re2",
+      "package_checksum": "Q1HS9hJFpdKrQfBDytdBZ+hIYIDi0=",
+      "source_commit": "c0a64a6633075ffea8d2fd1240aa6c41734499f7",
+      "version": "2025.11.05-r3"
+    },
+    "py3-sympy": {
+      "license": "BSD-3-Clause",
+      "origin": "py3-sympy",
+      "package_checksum": "Q189sC1PiFvPY+HjDCsDUsdWf5aTU=",
+      "source_commit": "b451bc9303647b2e4f2db6db524e4ec1ab1bbbfa",
+      "version": "1.14.0-r2"
+    },
+    "py3-sympy-pyc": {
+      "license": "BSD-3-Clause",
+      "origin": "py3-sympy",
+      "package_checksum": "Q17tGytVM+ax/pYMsmgj+MDMRuHkk=",
+      "source_commit": "b451bc9303647b2e4f2db6db524e4ec1ab1bbbfa",
+      "version": "1.14.0-r2"
+    },
+    "pyc": {
+      "license": "PSF-2.0",
+      "origin": "python3",
+      "package_checksum": "Q1OiqKSdPiqsA9M/nJ3hloHfvjh1I=",
+      "source_commit": "831cfeb7301d5010c027905e42958312698f4e4a",
+      "version": "3.14.10-r1"
+    },
+    "python3": {
+      "license": "PSF-2.0",
+      "origin": "python3",
+      "package_checksum": "Q1a+qIPEy2FFJVbGshcFR98i8a51M=",
+      "source_commit": "831cfeb7301d5010c027905e42958312698f4e4a",
+      "version": "3.14.10-r1"
+    },
+    "python3-pyc": {
+      "license": "PSF-2.0",
+      "origin": "python3",
+      "package_checksum": "Q1Pp5h8UMZU5dqp8vPe99Kci0780c=",
+      "source_commit": "831cfeb7301d5010c027905e42958312698f4e4a",
+      "version": "3.14.10-r1"
+    },
+    "python3-pycache-pyc0": {
+      "license": "PSF-2.0",
+      "origin": "python3",
+      "package_checksum": "Q1uFY5FcOlq3gIaGi0SeqBTqJkonk=",
+      "source_commit": "831cfeb7301d5010c027905e42958312698f4e4a",
+      "version": "3.14.10-r1"
+    },
+    "re2": {
+      "license": "BSD-3-Clause",
+      "origin": "re2",
+      "package_checksum": "Q1nvJmUmenfEW0TXKD1FdV7m6CUz4=",
+      "source_commit": "c0a64a6633075ffea8d2fd1240aa6c41734499f7",
+      "version": "2025.11.05-r3"
+    },
+    "readline": {
+      "license": "GPL-3.0-or-later",
+      "origin": "readline",
+      "package_checksum": "Q1lFsW43i8AORNidTegSS7p2R/300=",
+      "source_commit": "a854c03acdac188901fb012f7acbee70a36e8041",
+      "version": "8.3.3-r1"
+    },
+    "scanelf": {
+      "license": "GPL-2.0-only",
+      "origin": "pax-utils",
+      "package_checksum": "Q1AT+QPQuiGWc6673QT3S7XtgrAfA=",
+      "source_commit": "c61801eeacb3ffcd9c2025b09e402153bb93fb39",
+      "version": "1.3.9-r1"
+    },
+    "sqlite-libs": {
+      "license": "blessing",
+      "origin": "sqlite",
+      "package_checksum": "Q1h/Pica+dGWX7lkRl3Z/voW2To14=",
+      "source_commit": "f8081b25590214e2695a4faa77c7892bd902a4e8",
+      "version": "3.54.1-r0"
+    },
+    "ssl_client": {
+      "license": "GPL-2.0-only",
+      "origin": "busybox",
+      "package_checksum": "Q1wiD0pRJaMTr3M+mN75QTK7Hp1A0=",
+      "source_commit": "c3ef5d10e6ef6528852c51f0564963e2f8c1be19",
+      "version": "1.37.0-r31"
+    },
+    "xz-libs": {
+      "license": "GPL-2.0-or-later AND 0BSD AND Public-Domain AND LGPL-2.1-or-later",
+      "origin": "xz",
+      "package_checksum": "Q1hQEGWxhighYwF0xmO0WXRGLCluE=",
+      "source_commit": "0c088d609f9fe69eedd6b4c7f4b99cdad847c20a",
+      "version": "5.8.4-r0"
+    },
+    "zlib": {
+      "license": "Zlib",
+      "origin": "zlib",
+      "package_checksum": "Q1T1JcjMIE+EuLTKQNs744mVjwVsY=",
+      "source_commit": "0afa2da0e8c8051c6f8f64a7a388e5a259904245",
+      "version": "1.3.2-r1"
+    }
+  },
+  "architecture": "x86_64",
+  "python": "3.14.10",
+  "python_distributions": [
+    [
+      "coloredlogs",
+      "15.0.1"
+    ],
+    [
+      "flatbuffers",
+      "25.12.19"
+    ],
+    [
+      "google-re2",
+      "1.1.20251105"
+    ],
+    [
+      "humanfriendly",
+      "10.0"
+    ],
+    [
+      "lingua-language-detector",
+      "2.2.0"
+    ],
+    [
+      "mpmath",
+      "1.4.1"
+    ],
+    [
+      "numpy",
+      "2.4.6"
+    ],
+    [
+      "onnxruntime",
+      "1.24.4"
+    ],
+    [
+      "packaging",
+      "26.2"
+    ],
+    [
+      "pybind11",
+      "3.0.1"
+    ],
+    [
+      "pyparsing",
+      "3.3.2"
+    ],
+    [
+      "sympy",
+      "1.14.0"
+    ],
+    [
+      "tokenizers",
+      "0.23.3"
+    ]
+  ],
+  "sqlite_fts5_regression": true,
+  "sqlite_source_id": "2026-10-16 14:45:20 555e07ef33f69a0957d24d8e555b702464a131d6f1607f4c3c1e4551e8e6ca76"
+}

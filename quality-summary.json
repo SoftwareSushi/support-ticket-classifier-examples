@@ -1,0 +1,230 @@
+{
+  "version": "1.0.0",
+  "model_revision": "8d85b0e97f32ea16379e5ffdae7c20f7d652a5031a974000cfb1139ba1ea3530",
+  "image_digest": "sha256:81302fb54fa88257266612dc577bbc88ebca470e3157643ca936191c4499c967",
+  "certification": {
+    "package_arn": "arn:aws:sagemaker:us-east-1:637423513289:model-package/support-ticket-classifier-1-0-0-20261106-1036-b8dc-v4",
+    "status": "Completed",
+    "certify_for_marketplace": true
+  },
+  "aws": {
+    "p95_ms": 76.301873999995,
+    "tickets_per_second": 28.901632856447396,
+    "samples": 200,
+    "warmups": 10,
+    "concurrency": 2,
+    "busy_responses": 0,
+    "measured_at": "2026-11-06T10:42:00.893886+00:00",
+    "scope": "Short synthetic requests; warm same-region measurement, not an SLA"
+  },
+  "regression": {
+    "rows": 81,
+    "checks": {
+      "every_label_represented_in_every_language": true,
+      "intent_en_f1_at_least_0.85": true,
+      "intent_es_f1_at_least_0.85": true,
+      "intent_pt_f1_at_least_0.85": true,
+      "language_accuracy_at_least_0.98": true,
+      "sagemaker_p95_at_most_150_ms": true,
+      "sentiment_f1_at_least_0.85": true,
+      "urgency_f1_at_least_0.75": true
+    },
+    "macro_f1": {
+      "intent": 0.9628482972136223,
+      "sentiment": 0.9402234612209582,
+      "urgency": 0.8444510212660096
+    }
+  },
+  "expanded": {
+    "challenges": [
+      {
+        "expected_review": 45,
+        "expected_review_flagged": 45,
+        "flagged": 45,
+        "language_unknown": 0,
+        "rows": 45,
+        "truncated": 45,
+        "type": "long_context"
+      },
+      {
+        "expected_review": 21,
+        "expected_review_flagged": 11,
+        "flagged": 23,
+        "language_unknown": 0,
+        "rows": 45,
+        "truncated": 0,
+        "type": "multiple_intents"
+      },
+      {
+        "expected_review": 0,
+        "expected_review_flagged": 0,
+        "flagged": 31,
+        "language_unknown": 0,
+        "rows": 45,
+        "truncated": 0,
+        "type": "negation"
+      },
+      {
+        "expected_review": 10,
+        "expected_review_flagged": 4,
+        "flagged": 8,
+        "language_unknown": 1,
+        "rows": 45,
+        "truncated": 0,
+        "type": "short_or_noisy"
+      },
+      {
+        "expected_review": 20,
+        "expected_review_flagged": 19,
+        "flagged": 19,
+        "language_unknown": 17,
+        "rows": 20,
+        "truncated": 0,
+        "type": "unsupported_or_mixed_language"
+      }
+    ],
+    "core": {
+      "en": {
+        "excluded_ambiguous_labels": {
+          "intent": 0,
+          "sentiment": 0,
+          "urgency": 0
+        },
+        "ground_truth_rows": {
+          "intent": 600,
+          "sentiment": 600,
+          "urgency": 600
+        },
+        "language_accuracy": 1.0,
+        "macro_f1": {
+          "intent": 0.8994415143730882,
+          "sentiment": 0.8687197940087567,
+          "urgency": 0.8676929190920354
+        },
+        "reviewed_by_policy": 72,
+        "rows": 600,
+        "support": {
+          "intent": {
+            "account_access": 67,
+            "billing": 67,
+            "cancellation": 67,
+            "complaint": 66,
+            "other": 66,
+            "refund": 67,
+            "sales_inquiry": 66,
+            "shipping_delivery": 67,
+            "technical_issue": 67
+          },
+          "sentiment": {
+            "negative": 196,
+            "neutral": 211,
+            "positive": 193
+          },
+          "urgency": {
+            "high": 191,
+            "low": 194,
+            "medium": 215
+          }
+        },
+        "unflagged": 528,
+        "unflagged_intent_errors": 35
+      },
+      "es": {
+        "excluded_ambiguous_labels": {
+          "intent": 0,
+          "sentiment": 0,
+          "urgency": 0
+        },
+        "ground_truth_rows": {
+          "intent": 600,
+          "sentiment": 600,
+          "urgency": 600
+        },
+        "language_accuracy": 0.9983333333333333,
+        "macro_f1": {
+          "intent": 0.8932925125013509,
+          "sentiment": 0.8730434645610851,
+          "urgency": 0.8326608285727017
+        },
+        "reviewed_by_policy": 89,
+        "rows": 600,
+        "support": {
+          "intent": {
+            "account_access": 67,
+            "billing": 67,
+            "cancellation": 67,
+            "complaint": 66,
+            "other": 66,
+            "refund": 67,
+            "sales_inquiry": 66,
+            "shipping_delivery": 67,
+            "technical_issue": 67
+          },
+          "sentiment": {
+            "negative": 195,
+            "neutral": 211,
+            "positive": 194
+          },
+          "urgency": {
+            "high": 192,
+            "low": 199,
+            "medium": 209
+          }
+        },
+        "unflagged": 511,
+        "unflagged_intent_errors": 33
+      },
+      "pt": {
+        "excluded_ambiguous_labels": {
+          "intent": 0,
+          "sentiment": 5,
+          "urgency": 0
+        },
+        "ground_truth_rows": {
+          "intent": 600,
+          "sentiment": 595,
+          "urgency": 600
+        },
+        "language_accuracy": 1.0,
+        "macro_f1": {
+          "intent": 0.8706106883729513,
+          "sentiment": 0.862426298167457,
+          "urgency": 0.8466957107042082
+        },
+        "reviewed_by_policy": 132,
+        "rows": 600,
+        "support": {
+          "intent": {
+            "account_access": 67,
+            "billing": 67,
+            "cancellation": 67,
+            "complaint": 66,
+            "other": 66,
+            "refund": 67,
+            "sales_inquiry": 66,
+            "shipping_delivery": 67,
+            "technical_issue": 67
+          },
+          "sentiment": {
+            "negative": 211,
+            "neutral": 221,
+            "positive": 163
+          },
+          "urgency": {
+            "high": 192,
+            "low": 194,
+            "medium": 214
+          }
+        },
+        "unflagged": 468,
+        "unflagged_intent_errors": 37
+      }
+    },
+    "model_revision": "8d85b0e97f32ea16379e5ffdae7c20f7d652a5031a974000cfb1139ba1ea3530",
+    "production_qualification_replaced": false,
+    "scope": "AI-authored synthetic labels; not human-adjudicated or representative customer accuracy",
+    "training_performed": false
+  },
+  "human_reviewed": false,
+  "customer_accuracy_claim": false
+}
